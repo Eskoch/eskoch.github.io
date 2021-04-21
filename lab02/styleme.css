@@ -25,3 +25,6 @@ hr {
   width: 350px;
   height: 230px;
 }
+.myDesc:hover {
+  color: gold;
+}
