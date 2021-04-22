@@ -1,0 +1,75 @@
+body {
+	background-image: url("back-img.jpg");
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-color: #EAF6F6;
+}
+header h1{
+	min-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10%;
+	text-align: center;
+}
+header h2 {
+	min-width: 570px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+	text-align: center;
+}
+header {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 87px;
+	text-align: center;
+}
+.summary {
+	min-width: 570px;
+	text-align: center;
+}
+.download {
+	min-width: 570px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+}
+.preamble {
+	padding-top: 20px;
+	font: georgia;
+	text-align: center;
+}
+.explanation {
+	padding-top: 10px;
+	text-align: center;
+}
+.participation {
+	padding-top: 10px;
+	text-align: center;
+}
+.benefits {
+	padding-top: 10px;
+	text-align: center;
+}
+.requirements {
+	padding-top: 10px;
+	text-align: center;
+}
+.wrapper {
+	background-image: url("footer-img.jpg");
+	padding-left: 420px;
+	display: grid;
+	grid-template-columns: 500px 500px 500px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "selection archives resources";
+}
+.design-selection{
+  grid-area: selection;
+}
+.design-archives {
+  grid-area: archives;
+}
+.zen-resources {
+  grid-area: resources;
+}
