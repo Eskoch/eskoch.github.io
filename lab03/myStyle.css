@@ -57,7 +57,6 @@ header {
 }
 .wrapper {
 	background-image: url("../images/footer-img.jpg");
-	padding-left: 420px;
 	display: grid;
 	grid-template-columns: 500px 500px 500px;
   grid-template-rows: auto;
