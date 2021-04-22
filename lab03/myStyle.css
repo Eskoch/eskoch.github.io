@@ -1,5 +1,5 @@
 body {
-	background-image: url("back-img.jpg");
+	background-image: url("../images/back-img.jpg");
 	background-repeat: repeat;
 	background-attachment: fixed;
 	background-color: #EAF6F6;
@@ -56,7 +56,7 @@ header {
 	text-align: center;
 }
 .wrapper {
-	background-image: url("footer-img.jpg");
+	background-image: url("../images/footer-img.jpg");
 	padding-left: 420px;
 	display: grid;
 	grid-template-columns: 500px 500px 500px;
