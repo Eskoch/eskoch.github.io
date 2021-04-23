@@ -61,6 +61,7 @@ body {
 .foot {
   background-color: #66CDAA;
   width: 100px;
+  border: none;
 }
 .footer {
   background-color: #DCDCDC;
