@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration</title>
+    <link rel="stylesheet" href="regStyle.css">
+  </head>
+  <body>
+    <div class="header">
+      <h3>Workshop Registration</h3>
+    </div>
+    <div class="headNote">
+      <h5 class="headNote">Register now while seats are available!</h5>
+    </div>
+
+    <form class="registration" action="#" method="post">
+      <div class="allForm">
+        <div class="infoLabels">
+          <label class="lab" id="required">First Name</label><br>
+          <label class="lab" id="required">Last Name</label><br>
+          <label class="lab" id="required">Company/Institution</label><br>
+          <label class="lab" id="required">Address</label><br>
+
+          <div class="location">
+            <label class="lab">City</label><br>
+            <label class="lab">State/Province/Region</label><br>
+            <label class="lab">Country</label><br>
+            <label class="lab" id="required">Email</label><br>
+            <label class="lab" id="required">Phone Number</label><br>
+          </div>
+        </div>
+
+        <div class="userInfo">
+          <input class="in" required type="text" name="fName" value=""/><br>
+
+          <input class="in" required type="text" name="lName" value=""/><br>
+
+          <input class="in" required type="text" name="company" value=""/><br>
+
+          <textarea class="in" required name="name" rows="8" cols="30"></textarea/><br>
+
+          <input class="in" type="text" name="city" value=""/><br>
+
+          <select class="in" name="states">
+            <option selected>-select-</option>
+            <option>Iowa</option>
+            <option>New York</option>
+            <option>California</option>
+          </select><br>
+
+
+          <select class="in" name="countries">
+            <option selected>-select-</option>
+            <option>US</option>
+            <option>Australia</option>
+            <option>Canada</option>
+          </select><br>
+
+          <input class="in" required type="text" name="email" value=""/><br>
+
+          <input class="in" required type="text" name="phone" value=""><br>
+        </div>
+
+        <div class="addLables">
+          <h5 class="note">Lunch</h5>
+          <label>Meal Preference</label><br>
+
+          <h5 class="note">Payment Details</h5>
+          <label>Payment Mode</label>
+          <div class="payment">
+            <label class="lab">DD/Cheque No.</label><br>
+            <label class="lab">Drawn On (Bank Name)</label><br>
+            <label class="lab">Payable at</label><br>
+          </div>
+        </div>
+
+        <div class="additional">
+          <br>
+          <select class="in" name="mealPreference">
+            <option selected>Vegetarian</option>
+            <option>Beef</option>
+            <option>Pizza</option>
+          </select><br><br>
+
+          <div class="payInput">
+            <input class="check" type="checkbox" name="cash" value="">Cash<br>
+            <input class="check" type="checkbox" name="cheque" value=""><label>Cheque</label><br>
+            <input class="check" type="checkbox" name="demand" value=""><label>Demand Draft</label><br>
+            <input class="in" type="text" name="chequeNo" value=""><br>
+            <input class="in" type="text" name="drawnOn" value=""><br>
+            <input class="in" type="text" name="at" value=""><br>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="footer">
+        <input class="foot" type="reset" name="reset" value="Reset">
+        <input class="foot" type="submit" name="submit" value="Submit">
+      </div>
+    </form>
+  </body>
+</html>

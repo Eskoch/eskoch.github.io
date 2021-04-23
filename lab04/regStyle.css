@@ -1,0 +1,73 @@
+.userInfo {
+  width: 500px;
+  clear: both;
+}
+body {
+  margin: 0;
+}
+.allForm {
+  display: flex;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.lab, textarea, select {
+  margin-top: 20px;
+  width: 200px;
+  display: inline-block;
+}
+.in {
+  margin-top: 20px;
+  width: 240px;
+}
+.infoLabels {
+  padding-left: 10px;
+}
+.header {
+  background-color: #66CDAA;
+  padding: 3px;
+}
+.headNote {
+  margin-left: 9px;
+  margin-top: 20px;
+  text-decoration: underline;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+.note {
+  text-decoration: underline;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+.location {
+  padding-top: 126px;
+}
+.additional {
+  padding-top: 20px;
+}
+.payDetail {
+  text-decoration: underline;
+  padding-top: 10px;
+}
+.payment {
+  padding-top: 47px;
+}
+.payInput {
+  padding-top: 39px;
+}
+#required:after {
+    content:" *";
+    color: red;
+}
+.foot {
+  background-color: #66CDAA;
+}
+.footer {
+  background-color: #DCDCDC;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
