@@ -4,7 +4,7 @@ console.log('Q1. Sum of elements which are greater than 20: ' + sum);
 
 const strings = ['Dodge', 'Toyota', 'Chevrolet', 'Nissan', 'Ferrari', 'Bugati'];
 let longStrings = strings.filter(elm => elm.length >= 5).filter(elm => elm.includes('a'));
-console.log('Q2. List of strings whose length is greater than 5 and that contains character a: ' + longStrings);
+console.log('Q2. List of strings whose length is greater than or equal to 5 and that contains character a: ' + longStrings);
 
 
 function Employee(firstName, lastName, birthDate) {
@@ -25,7 +25,8 @@ function Employee(firstName, lastName, birthDate) {
 
 const employees = [new Employee('John', 'Snow', new Date('1972-2-14')),
                    new Employee('Edword', 'Snowden', new Date('1982-05-23')),
-                   new Employee('Kevin', 'Mitnik', new Date('2002-05-23'))];
+                   new Employee('Kevin', 'Mitnik', new Date('2002-05-23')),
+                   new Employee('Alpha', 'Bravo', new Date('2002-05-23'))];
 
 const olderEmployees = employees.filter(elm => elm.getAge() > 20).map(elm => elm.getAge());
 const youngerEmployees = employees.filter(elm => elm.birthDate.getFullYear() > 2000).map(elm => elm.getFullName());
