@@ -1,4 +1,4 @@
-const numbers = [10,7,35,14,52,6,17,85,91];
+const numbers = [1,50,40,3,10];
 let sum = numbers.filter(elm => elm > 20).reduce((accum, elm, index, array) =>  accum + elm, 0);
 console.log('Q1. Sum of elements which are greater than 20: ' + sum);
 
@@ -23,7 +23,7 @@ function Employee(firstName, lastName, birthDate) {
   }
 }
 
-const employees = [new Employee('John', 'Snow', new Date('1972-2-14')),
+const employees = [new Employee('John', 'Snow', new Date('1994-04-26')),
                    new Employee('Edword', 'Snowden', new Date('1982-05-23')),
                    new Employee('Kevin', 'Mitnik', new Date('2002-05-23')),
                    new Employee('Alpha', 'Bravo', new Date('2002-05-23'))];
