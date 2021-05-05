@@ -7,7 +7,7 @@ let group = {
       console.log(this.title + ": " + student);
     };
 
-    this.students.forEach(st.bind(group));
+    this.students.forEach(st.bind(this));
   }
 };
 group.showList();
