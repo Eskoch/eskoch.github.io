@@ -7,12 +7,13 @@ function updateGuests() {
     var last = $("#last").val();
 
     $.ajax("guest.ajax", {
-		"type": "post",
-		"data": {
-        	"first": first,
-                "last": last
-		}
-    }).done(displayGuests);
+                        		"type": "post",
+                        		"data": {
+                                    	"first": first,
+                                      "last": last
+                        		        }
+                          }
+    ).done(displayGuests);
 }
 
 function displayGuests(data) {

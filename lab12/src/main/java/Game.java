@@ -17,7 +17,7 @@ public class Game extends HttpServlet {
 
 				if(session.getAttribute("quiz") ==  null){
 	            quiz =  new Quiz();
-	            session.setAttribute("quiz",quiz);
+	            session.setAttribute("quiz", quiz);
 	      } else {
 	            String ans = req.getParameter("result");
 	            quiz = (Quiz)session.getAttribute("quiz");
@@ -35,7 +35,6 @@ public class Game extends HttpServlet {
 
 			out.println("<h1>Welcome to the Number Quiz</h1>  <form action=\"play\" method=\"post\"> Your current score is " + quiz.getScore() + " .<br> Guess the next number in the sequence. <br>" + question + " Your answer: <input type='text' name='result'> <input type='submit'></form>");
         }
-
 	}
 
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException {

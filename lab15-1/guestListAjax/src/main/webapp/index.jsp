@@ -4,6 +4,6 @@
         <title>Test</title>
     </head>
     <body>
-      <a href='GuessServlet.ajax'>start the Guest List application</a>
+      <a href='GuesServlet.ajax'>start the Guest List application</a>
     </body>
 </html>
